@@ -5,7 +5,7 @@
 */ 
 
 const { SmartThingsClient, BearerTokenAuthenticator } = require('@smartthings/core-sdk')
-const client = new SmartThingsClient(new BearerTokenAuthenticator('bb33ca99-94f0-43f6-a9fb-1c2fb4a2486f'))
+const client = new SmartThingsClient(new BearerTokenAuthenticator(''))
 
 let hub = ''
 
